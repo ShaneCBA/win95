@@ -1,0 +1,45 @@
+#taskbar
+{
+    display: grid;
+    grid-template-columns: min-content 1fr auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#tray
+{
+    display: flex;
+    align-items: center;
+}
+
+.taskicon, 
+.taskicon:active
+{
+    font-weight: bold;
+    padding: 2px 4px !important;
+}
+#starticon
+{
+    display: flex;
+    align-items: center;
+    min-width: unset;
+}
+#starticon > img
+{
+    height: 20px;
+    width: 20px;
+}
+#starticon > .startText
+{
+    position: relative;
+    font-size: 12px;
+}
+
+#start
+{
+    position: fixed;
+    height: auto;
+    width: min-content;
+}

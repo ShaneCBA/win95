@@ -1,0 +1,29 @@
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  font-size: 12px;
+  background-color: #55AAAA;
+  font-family: "Pixelated MS Sans Serif", Arial;
+  -webkit-font-smoothing: none;
+  overflow: hidden;
+}
+
+#Windows
+{
+  overflow: visible;
+}
+
+.frame
+{
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+  background: silver;
+  padding: 3px;
+}
+.frame.inset
+{
+  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}

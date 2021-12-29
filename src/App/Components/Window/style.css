@@ -1,0 +1,11 @@
+#Windows > .window
+{
+    width: 100%;
+    height: 100%;
+    display: inline-flex !important;
+    flex-direction: column;
+}
+#Windows > .window > .window-body
+{
+    height: 100%;
+}
